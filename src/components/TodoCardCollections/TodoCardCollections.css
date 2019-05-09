@@ -1,0 +1,14 @@
+.todo-collection {
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 100rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.todo-collection::-webkit-scrollbar {
+  width: 0;
+}

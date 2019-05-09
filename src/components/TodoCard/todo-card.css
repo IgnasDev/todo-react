@@ -1,0 +1,33 @@
+.todo-card {
+  margin: .5rem 0;
+  width: 80%;
+  border: 2px solid #c72c41;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-card--title {
+  width: 90%;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.todo-card--delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-btn {
+  width: 3.3rem;
+  height: 3.3rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.delete-btn:hover {
+  background: #c72c41;
+}
